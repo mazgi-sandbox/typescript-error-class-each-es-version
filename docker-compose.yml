@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: Dockerfile.d/app
+      args:
+        UID: ${UID:-0}
+        GID: ${GID:-0}
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    user: "${UID:-0}:${GID:-0}"
+    environment:
+      - TERM
+    command:
+      - bash
+      - -c
+      - |
+        npm install
+        npm run run:all

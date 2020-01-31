@@ -1,0 +1,241 @@
+Attaching to typescript-error-class-each-es-version_app_1
+app_1  | audited 289 packages in 0.965s
+app_1  | found 0 vulnerabilities
+app_1  | 
+app_1  | 
+app_1  | > app@ run:all /workspace
+app_1  | > for prj in tsconfig.*.json; do tput bold; tput setaf 5; tput setab 0; echo -n "Use $prj."; tput sgr0; echo; ts-node --project $prj src/index.ts; done
+app_1  | 
+app_1  | Use tsconfig.es2015.json.
+app_1  | RawError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | SimpleError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | CustomError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:7:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | Use tsconfig.es2016.json.
+app_1  | RawError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | SimpleError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | CustomError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:7:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | Use tsconfig.es2017.json.
+app_1  | RawError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | SimpleError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | CustomError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:7:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | Use tsconfig.es2018.json.
+app_1  | RawError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | SimpleError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | CustomError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:7:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | Use tsconfig.es2019.json.
+app_1  | RawError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | SimpleError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | CustomError: 
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:7:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  |     at Object.<anonymous> (/workspace/node_modules/ts-node/src/bin.ts:485:3)
+app_1  | Use tsconfig.es3.json.
+app_1  | Error: 
+app_1  |     at new RawError (/workspace/src/raw-error-class.ts:19:42)
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  | Error [SimpleError]: 
+app_1  |     at new SimpleError (/workspace/src/simple-error-class.ts:3:5)
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | [Error: ]
+app_1  | Use tsconfig.es5.json.
+app_1  | Error: 
+app_1  |     at new RawError (/workspace/src/raw-error-class.ts:19:42)
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:5:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14)
+app_1  | Error [SimpleError]: 
+app_1  |     at new SimpleError (/workspace/src/simple-error-class.ts:3:5)
+app_1  |     at Object.<anonymous> (/workspace/src/index.ts:6:13)
+app_1  |     at Module._compile (internal/modules/cjs/loader.js:777:30)
+app_1  |     at Module.m._compile (/workspace/node_modules/ts-node/src/index.ts:814:23)
+app_1  |     at Module._extensions..js (internal/modules/cjs/loader.js:788:10)
+app_1  |     at Object.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:817:12)
+app_1  |     at Module.load (internal/modules/cjs/loader.js:643:32)
+app_1  |     at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+app_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:840:10)
+app_1  |     at main (/workspace/node_modules/ts-node/src/bin.ts:226:14) {
+app_1  |   name: 'SimpleError'
+app_1  | }
+app_1  | [Error: ]
+typescript-error-class-each-es-version_app_1 exited with code 0
